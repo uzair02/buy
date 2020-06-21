@@ -1,0 +1,114 @@
+html
+body{
+     background: url("../images/css-lattice-pattern.png")no-repeat center center fixed;
+     background-size: cover;
+   font-family: 'Piedra', cursive;
+    
+    padding-top: 30px;
+}
+div.container{
+    height:100%;
+    width: 65%;
+    color: cornsilk;
+    text-align: center;
+    
+}
+.list{
+     height:100%;
+    width: 95%;
+    color: cornsilk;
+    align-content: center;
+    margin-left: 300px;
+}
+.image{
+    float: left;
+   padding-right: 90px;
+}
+.buffer{
+    height: 100px;
+}
+.short{
+    height: 40px;
+}
+.bad{
+    color: red;
+}
+
+.contant{
+    border-collapse: collapse;
+    margin: 26px 0;
+    font-size: 1.1em;
+    min-width: 400px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 8px grey;
+    overflow: hidden;
+    color: dimgray;
+ margin-left:auto; margin-right:auto; 
+    
+}
+
+.contant thead tr{
+    background-color: seagreen;
+    color: cornsilk;
+    text-align: left;
+    font-weight: bold;
+   
+}
+.contant th,.contant td{
+    padding: 11px 15px;
+    
+}
+.contant tbody tr{
+    border-bottom: 1px solid white;
+    background-color: cornsilk;
+    text-align: left;
+}
+.contant tbody tr:nth-of-type(even){
+    background-color: aliceblue;
+}
+.contant tbody tr:last-of-type{
+    border-bottom: 1px solid seagreen;
+}
+.contant tbody tr.active-row{
+    font-weight: bold;
+    color: #009878;
+}
+.botn{
+    padding: 1em 1.5em;
+    font-weight: 300;
+    border-radius: 50px;
+    box-shadow: 1.1px 1.1px 5px black;
+}
+.botn-primary{
+    background-color: seagreen;
+    border-color: seagreen;
+    color: aliceblue;
+}
+.botn-primary:hover{
+    background-color: #009878;
+    border-color: #009878;
+    padding: 1.1em 1.3em;
+    
+}
+
+p{
+    font-size: 20px;
+}
+li{
+    font-size: 20px;
+}
+img{
+     display: block;
+  margin-left: auto;
+    
+  margin-right: auto;
+  width: 50%;
+}
+div.cont{
+    height: 100%;
+    width: 100;
+}
+video{
+ display: block; margin: auto; 
+    
+}
